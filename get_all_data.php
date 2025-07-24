@@ -2,7 +2,7 @@
 
 header('Content-Type: application/json');
 
-require_once 'db_connection.php';
+require_once __DIR__ . '/db_connection.php';
 
 // Get all data from db and return to the datatable
 function getProducts($database) {
