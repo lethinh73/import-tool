@@ -1,0 +1,8 @@
+# Environment file with secrets
+.env
+
+# Composer dependencies directory
+/vendor/
+
+# Composer lock file
+composer.lock
